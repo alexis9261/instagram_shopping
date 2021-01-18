@@ -19,23 +19,23 @@
                 </ul>
               </div>
             </div>
-            <div class="col col-lg-2">
+            <div class="col col-lg-4">
               <ul class="list-group list-group-minimal">
-                <h6 class="list-group-item">Productos</h6>
-                <li class="list-group-item"><span class="h6 text-muted">Landing Page</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Web Corporativas</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Tiendas Virtuales</span></li>
-                <li class="list-group-item"><span class="h6 text-muted">Aplicaciones web</span></li>
+                <h6 class="list-group-item">Enlaces de interes</h6>
+                <li class="list-group-item"><span class="h6 text-muted"><a href="{{route('blog')}}">Blog</a> </span></li>
+                <li class="list-group-item"><span class="h6 text-muted"><a href="{{route('contactanos')}}">Contacto</a></span></li>
+                <li class="list-group-item"><span class="h6 text-muted"><a href="{{route('funnel_01_ok')}}">Requisitos y configuración</a></span></li>
+                <li class="list-group-item"><span class="h6 text-muted"><a href="{{route('funnel_01_ok')}}">Ejemplos</a></span></li>
               </ul>
             </div>
             <div class="col col-lg-2">
-              <ul class="list-group list-group-minimal">
+              {{-- <ul class="list-group list-group-minimal">
                 <h6 class="list-group-item">Servicios</h6>
                 <li class="list-group-item"><span class="h6 text-muted">Redes Sociales</span></li>
                 <li class="list-group-item"><span class="h6 text-muted">Identidad Corporativa</span></li>
                 <li class="list-group-item"><span class="h6 text-muted">Diseño UX/IU</span></li>
                 <li class="list-group-item"><span class="h6 text-muted">Desarrollo Web</span></li>
-              </ul>
+              </ul> --}}
             </div>
             {{-- <div class="col col-lg-2">
               <ul class="list-group list-group-minimal">
@@ -48,7 +48,7 @@
               </ul>
             </div> --}}
             <div class="col-lg-2 text-lg-right">
-              <a href="tel:58-414-344-62-25" class="phone bordered">+584143446225</a>
+              <a href="tel:58-412-403-86-48" class="phone bordered">+584124038648</a>
             </div>
           </div>
           <span class="copyright-text">&copy; <b> Eutuxia Group, C.A. J-50017524-8</b>  -  Todos los derechos reservados 2020.</span>

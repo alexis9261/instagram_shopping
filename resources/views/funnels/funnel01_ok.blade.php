@@ -33,6 +33,11 @@
     $color_header='light';
 @endphp
 @endsection
+<style>
+  .cursor:hover{
+    cursor: pointer;
+  }
+</style>
 
 
 @section('content')
@@ -40,7 +45,7 @@
     <!-- hero -->
     <section class="pt-5 m-2">
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center align-items-center mt-2">
             <div class="col-lg-6 mt-5">
               <h1 class="text-decorated text-center">Bienvenido <b>@if (session()->has('usuario_name'))
                 {{  ucfirst(session()->get('usuario_name', '')) }}
@@ -48,7 +53,7 @@
             </b></h1>
               <p class="text-center">La funcionalidad de <mark style="background-color: #8ed825;" >Instagram shopping</mark> te permite tener una tienda dentro de instagram.<br>
               </p>
-              <img class="d-sm-none" src="{{asset('imagen/funnels/tienda-instagram-03.svg')}}" alt="tienda de instagram">
+              <img class="d-sm-none" src="{{asset('requisitos.svg')}}" alt="tienda de instagram">
               <h2 class="text-center h5"><b>¡Te ayudaremos a configurar la tuya para Venezuela!</b></h2>
               <p class="text-center">
                <div class="row">
@@ -66,7 +71,7 @@
               </p>
             </div>
             <div class="col-lg-6 d-none d-sm-block">
-              <img src="{{asset('imagen/funnels/tienda-instagram-03.svg')}}" alt="tienda de instagram">
+              <img src="{{asset('requisitos.svg')}}" alt="tienda de instagram">
             </div>
           </div>
         </div>  
@@ -135,50 +140,50 @@
               </a>
             </article> --}}
             <article class="news">
-              <a onclick="$('#btn_modal1').click()">
+              <a onclick="$('#btn_modal1').click()" class="cursor">
                 <h3 class="news-title">Tener una cuenta de Instagram confiable</h3>
                 <time datetime="2018-02-02">Nada de Trampas</time>
               </a>
             </article>
             <article class="news">
-              <a onclick="$('#btn_modal2').click()" >
+              <a onclick="$('#btn_modal2').click()" class="cursor">
                 <h3 class="news-title">Tener un perfil de empresa de instagram</h3>
                 <time datetime="2018-02-02">Es necesario</time>
               </a>
             </article>
             <article class="news">
-              <a onclick="$('#btn_modal3').click()">
+              <a onclick="$('#btn_modal3').click()" class="cursor">
                 <h3 class="news-title">Tener la última versión de Instagram</h3>
                 <time datetime="2018-02-02">Debes estar actualizado</time>
               </a>
             </article>
             <article class="news">
-              <a onclick="$('#btn_modal4').click()">
+              <a onclick="$('#btn_modal4').click()" class="cursor">
                 <h3 class="news-title">Tener una Fan page en Facebook</h3>
                 <time datetime="2018-02-02">Dale una mirada</time>
               </a>
             </article>
            
             <article class="news">
-              <a onclick="$('#btn_modal5').click()">
+              <a onclick="$('#btn_modal5').click()" class="cursor">
                 <h3 class="news-title">Dominio Único</h3>
                 <time datetime="2018-02-02">El de tu sitio web</time>
               </a>
             </article>
             <article class="news">
-              <a onclick="$('#btn_modal6').click()"  style="background:#8ed825">
+              <a onclick="$('#btn_modal6').click()"  style="background:#8ed825" class="cursor">
                 <h3 class="news-title"><b>Tener una página web que represente a tu negocio</b></h3>
                 <time datetime="2018-02-02">Aqui te la construimos</time>
               </a>
             </article>
             <article class="news">
-              <a onclick="$('#btn_modal7').click()">
+              <a onclick="$('#btn_modal7').click()" class="cursor">
                 <h3 class="news-title">Tener una cuenta comercial en Facebook Business</h3>
                 <time datetime="2018-02-02">El control digital del negocio</time>
               </a>
             </article>
             <article class="news">
-              <a onclick="$('#btn_modal8').click()">
+              <a onclick="$('#btn_modal8').click()" class="cursor">
                 <h3 class="news-title">Tener catálogo de productos</h3>
                 <time datetime="2018-02-02">Los que vas a mostrar</time>
               </a>
@@ -191,7 +196,7 @@
         <div class="row">
           <div class="col-12">
             <p class="lead text-center"><b>¿Aún no tienes tu pagina web?</b><br>mmm... Te brindamos <b style="color:#8ed825">ASESORÍA + SITIO WEB</b> para tu tienda de Instagram.<br>
-              <a href="https://api.whatsapp.com/send?phone=584165124043&text=Hola,%20Quiero%20mi%20tienda%20de%20Instagram%20en%20promoción%20con%20la%20ecommerce.%20" class="btn btn-rounded btn-primary ml-1">Promoción</a></p>
+              <a href="https://api.whatsapp.com/send?phone=584124038648&text=Hola,%20Quiero%20mi%20tienda%20de%20Instagram%20en%20promoción%20con%20la%20ecommerce.%20" class="btn btn-rounded btn-primary ml-1">Promoción</a></p>
           </div>
         </div>
       </div>
@@ -294,7 +299,7 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <p class="lead text-center"><b>¿Necesitas ayuda con la configuración?</b> Si, ¡Quiero ayuda!. <a href="https://api.whatsapp.com/send?phone=584165124043&text=Hola,%20Necesito%20ayuda%20con%20mi%20tienda%20de%20Instagram.%20" class="btn btn-rounded btn-primary ml-1">Whatsapp</a></p>
+              <p class="lead text-center"><b>¿Necesitas ayuda con la configuración?</b> Si, ¡Quiero ayuda!. <a href="https://api.whatsapp.com/send?phone=584124038648&text=Hola,%20Necesito%20ayuda%20con%20mi%20tienda%20de%20Instagram.%20" class="btn btn-rounded btn-primary ml-1">Whatsapp</a></p>
             </div>
           </div>
         </div>
@@ -356,7 +361,7 @@
          
           <div class="row">
             <div class="col-12">
-              <p class="lead text-center"><b>¿Estás Listo?</b> Si, ¡Quiero mi tienda!. <a href="https://api.whatsapp.com/send?phone=584143446225&text=Hola,%20Quiero%20mi%20tienda%20de%20Instagram.%20" class="btn btn-rounded btn-white ml-1">Ir a una conversación</a></p>
+              <p class="lead text-center"><b>¿Estás Listo?</b> Si, ¡Quiero mi tienda!. <a href="https://api.whatsapp.com/send?phone=584124038648&text=Hola,%20Quiero%20mi%20tienda%20de%20Instagram.%20" class="btn btn-rounded btn-white ml-1">Ir a una conversación</a></p>
             </div>
           </div>
         </div>

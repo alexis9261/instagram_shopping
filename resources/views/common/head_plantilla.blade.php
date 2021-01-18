@@ -30,6 +30,7 @@
 <!-- metas -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" type="image/png" sizes="16x16" href="{{asset('logo.png')}}">
 {{-- precargas main --}}
 <link rel="preload" as="style" href="{{asset('css/plantilla_css/style.css')}}">
 <link rel="preload" as="style" href="{{asset('css/plantilla_css/vendor.css')}}">

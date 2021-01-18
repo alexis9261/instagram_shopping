@@ -90,8 +90,8 @@
       <!-- Manu lateral Mobile -->
       <ul id="nav-mobile" class="sidenav">
         <li><a href="/">Home</a></li>
-        <li><a href="/productos">Productos</a></li>
-        <li><a href="/servicios">Servicios</a></li>
+        {{-- <li><a href="/productos">Productos</a></li>
+        <li><a href="/servicios">Servicios</a></li> --}}
         <li><a href="/nosotros">Nosotros</a></li>
         {{-- <li><a class="dropdown-trigger" href="/productos" data-target="dropdown2">Productos<i class="material-icons right">arrow_drop_down</i></a></li> --}}
         {{-- <li><a class="dropdown-trigger" href="/servicios" data-target="dropdown4">Servicios<i class="material-icons right">arrow_drop_down</i></a></li> --}}

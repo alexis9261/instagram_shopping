@@ -30,7 +30,7 @@
   <div class="container">
     <div class="row justify-content-center">
     <div class="col text-center">
-        <h1>Ultimas Noticias y Articulos</h1>
+        <h1>Artículos y novedades sobre tiendas virtuales</h1>
       </div>
     </div>
   </div>    

@@ -3,8 +3,8 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-{{$color_header ?? 'light'}}">
         <a class="navbar-brand" href="/">
-          <img class="navbar-logo navbar-logo-light" src="{{asset('imagen/oxas/logo_light.svg')}}" alt="Logo">
-          <img class="navbar-logo navbar-logo-dark" src="{{asset('imagen/oxas/logo_dark.svg')}}" alt="Logo">
+          <img class="navbar-logo navbar-logo-light" src="{{asset('logo.svg')}}" alt="Logo">
+          <img class="navbar-logo navbar-logo-dark" src="{{asset('logo.svg')}}" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
 
@@ -17,17 +17,17 @@
                 Home
               </a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link" href="/nosotros" role="button">
                 Nosotros
               </a>
-            </li>
+            </li> --}}
 
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link" href="/servicios" role="button">
                 Servicios
               </a>
-            </li>
+            </li> --}}
 {{-- 
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,6 +70,11 @@
               @endforeach
               </div>
             </li> --}}
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="{{route('funnel_01_ok')}}">
+                Requisitos
+              </a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="{{asset('contactanos')}}">
                 Contacto

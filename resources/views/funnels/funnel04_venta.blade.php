@@ -4,7 +4,7 @@
 @php
   $titulo = "Ecommerce para tienda de Instagram";
   $descripcion = "Necesitas una ecommerce que te permita activar Instagram Shopping";   
-  $url = "https://oxas.tech/tienda-de-instagram-venta";   
+  $url = "https://vzla.cc/tienda-de-instagram-venta";   
   $imagen_shared = asset('imagen/funnels/share-tienda.jpg'); 
 @endphp
 <!-- Primary Meta Tags -->
@@ -39,8 +39,8 @@
 @section('content')
 
     <!-- hero -->
-    <section class="bg-primary pt-0">
-        <div class="container">
+    <section class="bg-primary pt-5 pt-md-2">
+        <div class="container mt-5 mt-md-0">
           <div class="row justify-content-center">
             <div class="col-12 d-none d-sm-block text-center" style="mix-blend-mode: multiply;">
               <img src="{{asset('imagen/funnels/tienda-instagram-03.svg')}}" alt="tienda de instagram">
